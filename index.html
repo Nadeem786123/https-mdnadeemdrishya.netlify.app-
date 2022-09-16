@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/c3017db5bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="table-contaner">
+    <h1 class="heading">Table</h1>
+    <table id="table">
+        <thead>
+            <tr id="coloumn">
+                
+                <th id="c1">1</th>
+                <th id="c2">2</th>
+                <th id="c3">3</th>
+                <td>
+                    <!-- <input type="button" class="add" onclick="addCol(1);" value="Add Col">
+                    <input type="button" value="Delete Col" class="delete" onclick="delete_col('1')"> -->
+                </td>
+            </tr>
+        </thead>
+            <tbody>
+                <tr id="row">
+           
+                    <td id="r1" value="">2</td>
+                    <td id="r2">3</td>
+                    <td id="r3">4</td>
+                    <td>
+                        <button type="button" class="add" onclick="addRow();" value="Add Row">Add</button>
+                        <button type="button" value="Delete Row" class="delete" onclick="deleteRow()">Delete</button>
+                    </td>
+                </tr>
+                <tr class="text">
+                    <td id="R1">3</td>
+                    <td id="R2">4</td>
+                    <td id="R3">5</td>
+                    <td>
+                        <button type="button" class="add" onclick="addRow();" value="Add Row">Add</button>
+                        <button type="button" value="Delete Row" class="delete" onclick="deleteRow()">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+    </table>
+    <div class="dark-light">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-regular fa-sun-bright">☼</i>
+    </div>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
